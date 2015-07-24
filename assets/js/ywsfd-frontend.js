@@ -42,15 +42,6 @@ jQuery(function ($) {
      */
     if (ywsfd.facebook == 'yes') {
 
-        window.fbAsyncInit = function () {
-            FB.init({
-                appId  : ywsfd.fb_app_id,
-                status : true,
-                xfbml  : false,
-                version: 'v2.4'
-            });
-        };
-
         (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) {
@@ -58,7 +49,7 @@ jQuery(function ($) {
             }
             js = d.createElement(s);
             js.id = id;
-            js.src = '//connect.facebook.net/' + ywsfd.locale + '/sdk.js';
+            js.src = '//connect.facebook.net/' + ywsfd.locale + '/sdk.js#xfbml=1&version=v2.4&appId=' + ywsfd.fb_app_id;
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
 
