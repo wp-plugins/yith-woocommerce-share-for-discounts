@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Save For Discounts\n"
+"POT-Creation-Date: 2015-07-24 09:51+0100\n"
+"PO-Revision-Date: 2015-07-24 09:51+0100\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../class.yith-wc-share-for-discounts.php:169
+msgid "General Settings"
+msgstr ""
+
+#: ../class.yith-wc-share-for-discounts.php:177
+#: ../class.yith-wc-share-for-discounts.php:178
+msgid "Share For Discounts"
+msgstr ""
+
+#: ../class.yith-wc-share-for-discounts.php:214
+msgid "You need to select at least one social network"
+msgstr ""
+
+#: ../class.yith-wc-share-for-discounts.php:230
+msgid "You need to add a Facebook App ID"
+msgstr ""
+
+#: ../class.yith-wc-share-for-discounts.php:332
+#, php-format
+msgid "Share the product and get 10% discount!"
+msgstr ""
+
+#: ../class.yith-wc-share-for-discounts.php:423
+msgid "Guest"
+msgstr ""
+
+#: ../class.yith-wc-share-for-discounts.php:527
+#, php-format
+msgid "10% off for the shared product"
+msgstr ""
+
+#: ../class.yith-wc-share-for-discounts.php:710
+msgid "Settings"
+msgstr ""
+
+#: ../class.yith-wc-share-for-discounts.php:713
+msgid "Premium Version"
+msgstr ""
+
+#: ../class.yith-wc-share-for-discounts.php:741
+msgid "Plugin Documentation"
+msgstr ""
+
+#: ../init.php:23
+msgid ""
+"You can't activate the free version of YITH WooCommerce Share For Discounts "
+"while you are using the premium one."
+msgstr ""
+
+#: ../init.php:31
+msgid ""
+"YITH WooCommerce Share For Discounts is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+
+#: ../plugin-options/general-options.php:18
+msgid "Share For Discounts settings"
+msgstr ""
+
+#: ../plugin-options/general-options.php:24
+msgid "Enable YITH WooCommerce Share For Discounts"
+msgstr ""
+
+#: ../plugin-options/general-options.php:37
+#: ../templates/frontend/social-buttons.php:20
+#: ../templates/frontend/social-buttons.php:27
+msgid "Facebook"
+msgstr ""
+
+#: ../plugin-options/general-options.php:43
+msgid "Enable Facebook sharing"
+msgstr ""
+
+#: ../plugin-options/general-options.php:50
+msgid "Facebook App ID"
+msgstr ""
+
+#: ../plugin-options/general-options.php:63
+#: ../templates/frontend/social-buttons.php:35
+#: ../templates/frontend/social-buttons.php:42
+msgid "Twitter"
+msgstr ""
+
+#: ../plugin-options/general-options.php:69
+msgid "Enable Twitter sharing"
+msgstr ""
+
+#: ../plugin-options/general-options.php:76
+msgid "Twitter username"
+msgstr ""
+
+#: ../plugin-options/general-options.php:78
+msgid ""
+"Set this option if you want to include \"via @YourUsername\" to your tweets"
+msgstr ""
+
+#: ../plugin-options/general-options.php:88
+#: ../templates/frontend/social-buttons.php:51
+#: ../templates/frontend/social-buttons.php:58
+msgid "Google+"
+msgstr ""
+
+#: ../plugin-options/general-options.php:94
+msgid "Enable Google+ sharing"
+msgstr ""
