@@ -707,7 +707,7 @@ if ( !class_exists( 'YITH_WC_Share_For_Discounts' ) ) {
          */
         public function action_links( $links ) {
 
-            $links[] = '<a href="' . admin_url( " admin.php?page={$this->_panel_page}" ) . '">' . __( 'Settings', 'ywsfd' ) . '</a>';
+            $links[] = '<a href="' . admin_url( "admin.php?page={$this->_panel_page}" ) . '">' . __( 'Settings', 'ywsfd' ) . '</a>';
 
             if ( defined( 'YWSFD_FREE_INIT' ) ) {
                 $links[] = '<a href="' . $this->get_premium_landing_uri() . '" target="_blank">' . __( 'Premium Version', 'ywsfd' ) . '</a>';
