@@ -97,7 +97,8 @@ if ( !class_exists( 'YITH_WC_Share_For_Discounts' ) ) {
             add_action( 'after_setup_theme', array( $this, 'plugin_fw_loader' ), 1 );
             add_filter( 'plugin_action_links_' . plugin_basename( YWSFD_DIR . '/' . basename( YWSFD_FILE ) ), array( $this, 'action_links' ) );
             add_filter( 'plugin_row_meta', array( $this, 'plugin_row_meta' ), 10, 4 );
-
+            add_action( 'admin_menu', array( $this, 'add_menu_page' ), 5 );
+            add_action( 'yith_share_for_discounts_premium', array( $this, 'premium_tab' ) );
             $this->includes();
 
             if ( get_option( 'ywsfd_enable_plugin' ) == 'yes' ) {
@@ -108,8 +109,7 @@ if ( !class_exists( 'YITH_WC_Share_For_Discounts' ) ) {
 
                 if ( is_admin() ) {
 
-                    add_action( 'admin_menu', array( $this, 'add_menu_page' ), 5 );
-                    add_action( 'yith_share_for_discounts_premium', array( $this, 'premium_tab' ) );
+
                     add_action( 'woocommerce_update_option', array( $this, 'check_active_options' ), 10, 1 );
 
                 }

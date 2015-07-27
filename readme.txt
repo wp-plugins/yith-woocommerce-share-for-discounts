@@ -4,7 +4,7 @@ Contributors: yithemes
 Tags: woocommerce, products, themes, yit, yith, yithemes, e-commerce, shop, coupon, reward, discount, social network, facebook, google, twitter, share, discount
 Requires at least: 4.0
 Tested up to: 4.2.3
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,6 +42,10 @@ YITH WooCommerce Share For Discounts will add a new tab called "Share For Discou
 2. This is how product page will look with sharing buttons
 
 == Changelog ==
+
+= 1.0.1 =
+
+* Bug fixed
 
 = 1.0.0 =
 

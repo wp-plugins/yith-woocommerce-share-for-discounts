@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: YITH WooCommerce Share For Discounts
- * Plugin URI: http://yithemes.com/themes/plugins/yith-woocommerce-share-for-discount/
+ * Plugin URI: http://yithemes.com/themes/plugins/yith-woocommerce-share-for-discounts/
  * Description: YITH WooCommerce Share For Discounts gives you the perfect tool to reward your users when they share the products they are going to purchase.
  * Author: YIThemes
  * Text Domain: ywsfd
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author URI: http://yithemes.com/
  */
 
@@ -34,7 +34,7 @@ function ywsfd_install_woocommerce_admin_notice() {
 }
 
 if ( !defined( 'YWSFD_VERSION' ) ) {
-    define( 'YWSFD_VERSION', '1.0.0' );
+    define( 'YWSFD_VERSION', '1.0.1' );
 }
 
 if ( !defined( 'YWSFD_FREE_INIT' ) ) {
